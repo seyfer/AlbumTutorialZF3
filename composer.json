@@ -21,7 +21,8 @@
     "zfcampus/zf-development-mode": "^3.0"
   },
   "require-dev": {
-    "zendframework/zend-developer-tools": "^1.1"
+    "zendframework/zend-developer-tools": "^1.1",
+    "zendframework/zend-test": "^3.0"
   },
   "autoload": {
     "psr-4": {
@@ -31,7 +32,8 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "ApplicationTest\\": "module/Application/test/"
+      "ApplicationTest\\": "module/Application/test/",
+      "AlbumTest\\": "module/Album/test/"
     }
   },
   "extra": [],
