@@ -48,10 +48,6 @@ return [
     'navigation'   => [
         'default' => [
             [
-                'label' => 'Home',
-                'route' => 'home',
-            ],
-            [
                 'label' => 'Album',
                 'route' => 'album',
                 'pages' => [
